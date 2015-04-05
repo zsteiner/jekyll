@@ -1,0 +1,17 @@
+---
+title: 'Os Mutantes: Parody or Tribute?'
+author: Zach
+layout: post
+permalink: /2008/08/os-mutantes-parody-or-tribute/
+categories:
+  - Music
+---
+<img src="../../../images/misc/mutantes.png" alt="Os Mutantes" align="right" />In honor (or despite of) McDonald's use of "A Minha Menina" in a Olympics commercial, I wanted to share some thoughts about Os Mutantes. Despite being championed by Beck and David Byrne Os Mutantes are still relatively little known, so exposure in a commercial is a good thing. Even those hip to the band don't know much beyond their eponymous first album, from which "A Minha Menina" was taken. This may well be their best album, but the subsequent 3 albums are almost its equal. In particular, I want to mention their fourth album, *Mutantes E Seus Cometas No País Do Baurets*.
+
+I have not seen any critic make the following important observation about the album: it functions simultaneously as brilliant parody and loving tribute, all while being great music on it's own terms. The album achieves a similar end as The Flight of the Conchords, (maybe) sans the hilarious lyrics. Just as the Conchords lovingly send up various genres, so did the Mutantes decades prior. As I don't know Portuguese, I am only able to pick up musical parody, rather than lyrical. Musical parody is an important dimension of The Flight of the Conchords, without which the lyrics would not be as funny or successful. 
+
+From the opening track, which echoes British Invasion live recordings (e.g., The Kinks' *Live at Kelvin Hall*) that have screaming girls as a featured instrument often overtaking the band. Then there is "Cantor de Mambo," which sounds like a Santana song off *Abraxas*, right down to the perfect parody/emulation of a Satana guitar solo. Or "Balada Do Louco" which is a perfect McCartney ballad sung in Portuguese. 
+
+Often times, the tribute sounds loving as in the Santana-esque tune, but it often turns a bit wicked. Take "Balada Do Louco," which erupts with obtrusive and obnoxious Wings-esque synthesizer (as over powering and pointless as Linda's worst) or ends with a parody of the Beatles' Indian experiments. Then there is "A Hora E A Vez Do Cabelo Nascer" which mimics Page's power chords and Plant's vocals perfectly, but skewer Zeppelin with seemingly endless false endings and veer into the ridiculous with a hacking cough mixed with the singing. Last but not least is the epic "Mutantes E Seus Cometas No País Do Baurets" that sends up British jazzy prog rock bands like The Soft Machine or post-Syd (but pre-Darkside) Pink Floyd. You can hear an even more bizzarro Robert Wyatt channeled in the scatting mid-track. To add to the experimental soundscape excesses of the song, the song ends with a proggy jam on "Powerhouse." 
+
+The Mutantes were very affectionate in their emulation of British bands of the 60s and 70s (see their almost cover of the Stones's "You Can't Always Get What You Want" on * A Divina Comédia Ou Ando Meio Desligado's* "Haleluia"), but this album balances brilliantly between tribute and parody of the excesses and/or genre conventions. The songs would not work if they weren't strong on their own right (as are the Conchords's) or the bands instrumental and vocal prowess. It's hard enough to mimic Macca or Plant in English let alone Portuguese. There are certainly more tributes/parodies lurking in this album that aren't apparent to my musical experience. For any rock music dork, this is a treasure trove.
