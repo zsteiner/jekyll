@@ -1,0 +1,31 @@
+.post-nav {
+    @include outer-container(100%);
+    padding: spacer(1) spacer(1) 0;
+
+    li {
+        display: block;
+        padding: 0;
+        @include span-columns(6);
+        
+        &:first-child {
+            text-align: left;            
+        }
+    }
+    
+    a {
+        font-size: .875rem;
+        padding: 0;
+        
+        &[rel="prev"]:before {
+            content: '< ';
+        }
+
+        &[rel="next"]:after {
+            content: ' >';
+        }
+    }
+    
+    .post + & {
+        padding: 0 spacer(1) spacer(1);
+    }
+}
