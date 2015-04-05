@@ -1,11 +1,32 @@
 ---
 layout: default
 ---
+<nav class="post-nav">
+    <ul>
+        <li>
+            {% if page.next.url %} 
+                <a href="{{page.next.url}}" rel="prev">{{page.next.title}}</a>
+            {% else %}
+                <a href="/index.html" rel="prev">home</a>
+            {% endif %}
+        </li>
+        <li>
+            {% if page.previous.url %} 
+            <a href="{{page.previous.url}}" rel="next">{{page.previous.title}}</a>
+            {% endif %}
+        </li>
+    </ul>
+</nav>
+
 <div class="post">
 
   <header class="post-header">
+    <div class="post-meta">
+        <div>{{ page.date | date: "%b"  }}</div>
+        <div>{{ page.date | date: "%-d" }}</div>
+        <div>{{ page.date | date: "%Y"  }}</div>
+    </div>
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>
 
   <article class="post-content">
@@ -13,3 +34,20 @@ layout: default
   </article>
 
 </div>
+
+<nav class="post-nav">
+    <ul>
+        <li>
+            {% if page.next.url %} 
+                <a href="{{page.next.url}}" rel="prev">{{page.next.title}}</a>
+            {% else %}
+                <a href="/index.html" rel="prev">home</a>
+            {% endif %}
+        </li>
+        <li>
+            {% if page.previous.url %} 
+            <a href="{{page.previous.url}}" rel="next">{{page.previous.title}}</a>
+            {% endif %}
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,33 @@
+nav {
+    text-align: right;
+    padding-top: spacer(.5);
+    
+    li {
+        display: inline-block;
+        margin-right: spacer(.5);
+
+        &:last-child {
+            margin-right: 0;
+            
+            a {
+                padding-right: 0;
+            }
+        }
+    }
+    
+    a {
+        display: inline-block;
+        font-size: 1.5em;
+        padding: spacer(.5);
+        font-family: $font-serif;
+        color: $dark-blue;
+        border-bottom: .25em solid transparent;
+
+        &.current {
+            border-bottom-color: $dark-blue;
+        }
+    }
+}
+
+@import "mobile-nav";
+@import "mobile-nav-component";

@@ -1,0 +1,47 @@
+$footer-size: 4em;
+
+html, body {
+  height: 100%;
+}
+
+.page-wrap {
+  margin-bottom: -$footer-size;
+  min-height: 100%;
+}
+
+.page-wrap:after {
+  display: block;
+  content: "";
+  z-index: -1;
+}
+
+footer, .page-wrap:after {
+  height: $footer-size; 
+}
+
+footer {
+    padding: spacer(1);
+    border-top: $structure-border;
+    background-color: $trans-white;
+}
+
+//Mobile Style ... break point from Bootstrap
+@media (max-width: $mobile-width) { 
+	$footer-size-mobile: $footer-size;
+		
+	.page-wrap {
+	  margin-bottom: -$footer-size-mobile;
+	}
+	
+	footer, .page-wrap:after {
+	  height: $footer-size-mobile; 
+	}
+}
+
+.copyright {
+    &:before {
+        content: '\00A9 #{$year}';
+        margin: spacer(.25);
+        color: $grey;
+    }
+}

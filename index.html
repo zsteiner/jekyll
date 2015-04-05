@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
+<header class="header-title">
+    <h1>zach steiner</h1>
+    <h2>workplace psychology, UX, music, sometimes cooking</h2>
+</header>
 
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+<div class="main-content">
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <div class="post-meta">
+            <div>{{ post.date | date: "%b"  }}</div>
+            <div>{{ post.date | date: "%-d" }}</div>
+            <div>{{ post.date | date: "%Y"  }}</div>
+        </div>
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -17,7 +23,4 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
 </div>

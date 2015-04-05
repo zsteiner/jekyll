@@ -1,0 +1,38 @@
+.header-main, .header-title {
+    h1 {
+        overflow: hidden;
+        background: url(../images/nameplate.svg) no-repeat;
+        background-size: contain;
+        text-indent: 110%;
+        white-space: nowrap;
+        
+        &.no-logo {
+            background-image: none;
+        }
+    }
+}
+
+.header-main {
+    border-bottom: $structure-border;
+    padding: spacer(.5) spacer(1) 0; 
+    background: $trans-white;
+    
+    h1 {
+        position: absolute;
+        height: 3em;
+        width: 13em;
+        margin-bottom: spacer(.5);
+    }
+}
+
+@media (max-width: $mobile-width) {
+ .header-main {
+     background: $trans-white url(../images/initials.svg) no-repeat right spacer(1) bottom 0;
+     background-size: 4em;
+     min-height: 4em;
+     
+     h1 {
+         height: 0;
+     }
+ }   
+}
