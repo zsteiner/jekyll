@@ -1,0 +1,12 @@
+# Site settings
+title: zach steiner
+email:
+description: > # this means to ignore newlines until "baseurl:"
+  PhD workplace psychology. UX for public health software at Luther Consulting.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: zachsteiner
+github_username:  zsteiner
+
+# Build settings
+markdown: kramdown
