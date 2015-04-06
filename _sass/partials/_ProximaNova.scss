@@ -1,0 +1,25 @@
+// @import must be at top of file,otherwise CSS will not work */
+@import url(//hello.myfonts.net/count/2d9234);
+
+//Regular
+@font-face {font-family: 'Proxima Nova';src: url('../fonts/ProximaNova/2D9234_0_0.eot');src: url('../fonts/ProximaNova/2D9234_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova/2D9234_0_0.woff2') format('woff2'),url('../fonts/ProximaNova/2D9234_0_0.woff') format('woff'),url('../fonts/ProximaNova/2D9234_0_0.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: normal;   
+}
+ 
+//Thing  
+@font-face {font-family: 'Proxima Nova';src: url('../fonts/ProximaNova/2D9234_1_0.eot');src: url('../fonts/ProximaNova/2D9234_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova/2D9234_1_0.woff2') format('woff2'),url('../fonts/ProximaNova/2D9234_1_0.woff') format('woff'),url('../fonts/ProximaNova/2D9234_1_0.ttf') format('truetype');
+    font-weight: lighter;
+    font-weight: 200;
+    font-style: normal;       
+}
+ 
+//Italics  
+@font-face {
+    font-family: 'Proxima Nova';src: url('../fonts/ProximaNova/2D9234_2_0.eot');src: url('../fonts/ProximaNova/2D9234_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova/2D9234_2_0.woff2') format('woff2'),url('../fonts/ProximaNova/2D9234_2_0.woff') format('woff'),url('../fonts/ProximaNova/2D9234_2_0.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: 400;
+    font-style: italic;   
+}
+ 

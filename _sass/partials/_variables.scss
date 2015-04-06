@@ -3,6 +3,7 @@ $mid-grey: darken($light-grey, 10%);
 $grey: darken($light-grey, 35%);
 $blue: #4A90E2;
 $dark-blue: #547788;
+$charcoal: #3A3B3D;
 
 $trans-white: transparentize(white, .1);
 
@@ -10,7 +11,7 @@ $spacer-unit: 1rem;
 $gutter: modular-scale(1, $spacer-unit, $golden);
 
 $font-serif: Clarendon, Superclarendon, Georgia, serif;
-$font-sans-serif: Proxima Nova, Avenir Next, sans-serif;
+$font-sans-serif: Proxima Nova, Helvetica, sans-serif;
 
 $mobile-width: 760px;
 $mobile: new-breakpoint(max-width $mobile-width 4);

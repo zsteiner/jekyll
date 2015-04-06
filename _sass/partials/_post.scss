@@ -1,10 +1,14 @@
 .post {
     margin: spacer(1);
     padding: spacer(2);
-    font-family: $font-sans-serif;
     line-height: 1.5;
     background: white;
     border: $structure-border;
+    
+    @include media($mobile) {
+        margin: spacer(1) 0;          
+    }
+    
     
     &-header {
         min-height: 5em;
@@ -12,6 +16,7 @@
         h1 {
             font-size: 2em;
             margin-bottom: spacer(.5);
+            color: $charcoal;
         }        
     }
     
@@ -23,7 +28,7 @@
     }
     
     &-content {
-        margin: spacer(1) 0;
+        margin: spacer(1) 0;        
     }
     
     p, ol, ul {

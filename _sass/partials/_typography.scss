@@ -1,0 +1,32 @@
+@import 'ProximaNova';
+
+body {
+	font-family: $font-sans-serif;
+	color: $charcoal;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5 {
+    margin-bottom: .5em;
+    line-height: 1.25;
+}
+
+h1 {
+    //font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+h4 {
+    font-size: 1.75em;
+}
+
+h5 {
+    font-size: 1.5em;
+}
