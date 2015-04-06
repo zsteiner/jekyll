@@ -15,17 +15,20 @@
     a {
         font-size: .875rem;
         padding: 0;
-        
-        &[rel="prev"]:before {
-            content: '< ';
-        }
-
-        &[rel="next"]:after {
-            content: ' >';
-        }
+     
+        svg {
+            fill: currentColor;
+            top: .2em; 
+        }         
     }
     
     .post + & {
         padding: 0 spacer(1) spacer(1);
     }
+}
+
+[class*="icon-"] {
+    position: relative;
+    height: 1.25em;
+    width: 1.25em;
 }

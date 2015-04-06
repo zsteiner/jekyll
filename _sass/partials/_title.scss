@@ -1,5 +1,6 @@
 .header-title {
-    margin: spacer(1) spacer(1) spacer(2);
+    @include outer-container;
+    padding: spacer(1) spacer(1) spacer(2);
     
     h1 {
         height: 8em;
@@ -10,7 +11,7 @@
         font-weight: 300;
         font-size: 3em;
         line-height: 1.25;
-        color: $grey;
+        color: $charcoal;
     }
 }
 
@@ -21,7 +22,7 @@
         }
         
         h2 {
-            font-size: 1.5em;
+            font-size: 1.75em;
         }
     }
     
