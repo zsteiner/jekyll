@@ -10,11 +10,11 @@ categories:
 
 We are working on a HTML refresh of our applications. Our CSS is completely em based (see [here][1] for a discussion of the advantages). Our default font is Adobe's [Source Sans Pro][2]. It's reasonably attractive, open source, and readable at a variety of sizes. At the time I started using it, it was only available in OTF and TTF via [Adobe's Source Forge][3]. They have since added a full web font stack (i.e., EOT, WOFF). I used Font Squirrel's converter rather than dealing with converting to EOT, WOFF, and SVG manually. Font Squirrel was allowed to host and generate @font-face CSS for Source Sans at the time, but no longer.
 
-[<img class="aligncenter wp-image-280 size-full" src="http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-29-at-11.53.58-AM.png" alt="Screen Shot 2014-06-29 at 11.53.58 AM" width="742" height="317" />][4]
+[<img class="aligncenter wp-image-280 size-full" src="/images/posts/2014/06/Screen-Shot-2014-06-29-at-11.53.58-AM.png" alt="Screen Shot 2014-06-29 at 11.53.58 AM" width="742" height="317" />][4]
 
 I installed the Source Sans Pro TTF on my machine from Adobe's official repo. I happily wrote a bunch of CSS based on this version of the font, including some apparently fragile heights in my navigation bar:
 
-[<img class="aligncenter size-full wp-image-263" src="http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-6.02.12-PM.png" alt="Screen Shot 2014-06-25 at 6.02.12 PM" width="704" height="138" />][5]
+[<img class="aligncenter size-full wp-image-263" src="/images/posts/2014/06/Screen-Shot-2014-06-25-at-6.02.12-PM.png" alt="Screen Shot 2014-06-25 at 6.02.12 PM" width="704" height="138" />][5]
 
 My layouts were a bit suspect after an [Internet Explorer debacle][6] involving the worst Internet Option in existence, but I remained blissfully ignorant until this week.
 
@@ -42,17 +42,17 @@ I color coded each of the different fonts with background color to see what was 
 
 What did I get? All kinds of weird. The Font Squirrel and Adobe version are very different in height and spacing around the glyphs. For the sake of argument, I decided to include Source Sans Pro from TypeKit. We didn't really have a compelling reason to use TypeKit because of the limited number of fonts we used that are just as easy to self-host and avoid the cost of additional javascript. Surely, TypeKit would appear the same as one of the others. Nope. It plays by its own rules as well.<figure id="attachment_291" style="width: 604px;" class="wp-caption aligncenter">
 
-[<img class="wp-image-291 size-large" src="http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-5.51.02-PM-1024x784.png" alt="All of the specimens, on OS X (which does not have Segoe UI installed)" width="604" height="462" />][8]
+[<img class="wp-image-291 size-large" src="/images/posts/2014/06/Screen-Shot-2014-06-25-at-5.51.02-PM-1024x784.png" alt="All of the specimens, on OS X (which does not have Segoe UI installed)" width="604" height="462" />][8]
 
 I then hopped over to my VM with IE9 for testing, so I could see what happens with Segoe UI in the mix.<figure id="attachment_292" style="width: 604px;" class="wp-caption aligncenter">
 
-[<img class="wp-image-292 size-large" src="http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-29-at-1.12.15-PM-1024x789.png" alt="Specimens in IE9. There is no local Source Sans Pro in the Windows VM." width="604" height="465" />][9]
+[<img class="wp-image-292 size-large" src="/images/posts/2014/06/Screen-Shot-2014-06-29-at-1.12.15-PM-1024x789.png" alt="Specimens in IE9. There is no local Source Sans Pro in the Windows VM." width="604" height="465" />][9]
 
 Honestly, none of the fonts in the mix behave the same when it comes to vertical spacing and alignment. What a mess!
 
 The [reset][7] we're using has most tags set to vertical-align: baseline, which is standard practice. Setting that property to vertical-align: bottom resolved some of the height issues, but we have g and p extending beyond the container. Not ideal, but it does solve some of our issues.<figure id="attachment_295" style="width: 604px;" class="wp-caption aligncenter">
 
-[<img class="wp-image-295 size-large" src="http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-29-at-1.22.35-PM-1024x743.png" alt="" width="604" height="438" />][10]
+[<img class="wp-image-295 size-large" src="/images/posts/2014/06/Screen-Shot-2014-06-29-at-1.22.35-PM-1024x743.png" alt="" width="604" height="438" />][10]
 
 Ultimately, we decided to switch to the Adobe version as it has greater consistency in layout when it needs to fallback to Segoe UI. I was also able to greatly reduce the complexity in my @font-face declarations:
 
@@ -76,10 +76,10 @@ In the end, I don't really know why the same font distributed by three sources 
  [1]: http://css-tricks.com/why-ems/
  [2]: http://blog.typekit.com/2012/08/02/source-sans-pro/
  [3]: http://sourceforge.net/projects/sourcesans.adobe/
- [4]: http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-29-at-11.53.58-AM.png
- [5]: http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-6.02.12-PM.png
+ [4]: /images/posts/2014/06/Screen-Shot-2014-06-29-at-11.53.58-AM.png
+ [5]: /images/posts/2014/06/Screen-Shot-2014-06-25-at-6.02.12-PM.png
  [6]: http://zachsteiner.com/2014/06/icon-fonts-in-internet-explorer/ "Icon Fonts in Internet Explorer"
  [7]: http://meyerweb.com/eric/tools/css/reset/
- [8]: http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-25-at-5.51.02-PM.png
- [9]: http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-29-at-1.12.15-PM.png
- [10]: http://zachsteiner.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-29-at-1.22.35-PM.png
+ [8]: /images/posts/2014/06/Screen-Shot-2014-06-25-at-5.51.02-PM.png
+ [9]: /images/posts/2014/06/Screen-Shot-2014-06-29-at-1.12.15-PM.png
+ [10]: /images/posts/2014/06/Screen-Shot-2014-06-29-at-1.22.35-PM.png

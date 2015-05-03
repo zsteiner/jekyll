@@ -1,9 +1,10 @@
 .post {
-    margin: spacer(1);
+    margin: spacer(1) auto;
     padding: spacer(2);
     line-height: 1.5;
     background: white;
     border: $structure-border;
+    max-width: $max-width;
     
     @include media($mobile) {
         margin: spacer(1) 0;          
@@ -43,6 +44,30 @@
             margin-bottom: spacer(1);
         }
     }
+    
+    &-content {
+        h1, h2 {
+           font-family: $font-sans-serif;
+        }
+        
+        h1 {
+            font-size: 1.75rem;
+            margin-top: spacer(2);
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            margin-top: spacer(2);
+        }
+    }
+    
+    a {
+        border-bottom: 1px solid transparentize($blue, .65);
+        
+        &:hover {
+            border-bottom-color: transparentize($dark-blue, .25);
+        }
+    }    
 }
 
 figure {
@@ -80,4 +105,13 @@ pre {
         padding-right: 0;
         padding-left: 0;
     }
+}
+
+.highlight pre {
+    font-family: $font-mono;
+}
+
+.post-image-right {
+    float: right;
+    padding:  0 spacer(1) spacer(1);
 }

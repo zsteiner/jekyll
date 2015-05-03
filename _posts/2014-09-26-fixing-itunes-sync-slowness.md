@@ -11,7 +11,7 @@ I'm still in the 00s, I admit it. I have a large iTunes library that I manually 
 Syncing and using iTunes was pretty annoying for two reasons.
 
   1. Syncing with my iPhone would take forever. It would take 5 minutes or more on Step 2 just checking which apps to sync. That's without even syncing music.
-  2. The few times when iTunes crashes, the restart brings on the dreaded:[<img class="aligncenter size-full wp-image-319" src="http://zachsteiner.com/wp-content/uploads/2014/09/itunes_library_checking.jpg" alt="itunes_library_checking" width="908" height="426" />  
+  2. The few times when iTunes crashes, the restart brings on the dreaded:[<img class="aligncenter size-full wp-image-319" src="/images/posts/2014/09/itunes_library_checking.jpg" alt="itunes_library_checking" width="908" height="426" />  
     ][1]which could last for 10 minutes or more.
 
 The culprit for my setup? A bloated (500+ MB) iTunes Genius database. I deleted it and turned off Genius (don't really use it). Now syncs are blazingly fast and iTunes rebounds from crashes with aplomb.
@@ -27,4 +27,4 @@ One note: if you use and like Genius, you will have to let iTunes rebuild infor
 
 Now if iTunes + iPhone would sync via WiFi, like it's supposed to. A boy can dream...
 
- [1]: http://zachsteiner.com/wp-content/uploads/2014/09/itunes_library_checking.jpg
+ [1]: /images/posts/2014/09/itunes_library_checking.jpg

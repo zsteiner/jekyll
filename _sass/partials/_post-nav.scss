@@ -1,6 +1,7 @@
 .post-nav {
     @include outer-container(100%);
     padding: spacer(1) spacer(1) 0;
+    max-width: $max-width;
 
     li {
         display: block;
@@ -13,8 +14,12 @@
     }
     
     a {
-        font-size: .875rem;
+        font-size: 1rem;
         padding: 0;
+        line-height: 1.25;
+        //height: 2.25rem;
+        overflow: hidden;
+        position: relative;
      
         svg {
             fill: currentColor;
@@ -25,10 +30,29 @@
     .post + & {
         padding: 0 spacer(1) spacer(1);
     }
+    
+    .icon {
+        margin-bottom: spacer(1);
+    }
 }
 
-[class*="icon-"] {
+.icon {
     position: relative;
-    height: 1.25em;
-    width: 1.25em;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+[rel="prev"] {
+    
+    .icon {
+        float: left;
+        margin-right: spacer(.5);
+    }
+}
+
+[rel="next"] {
+    .icon {
+        float: right;
+        margin-left: spacer(.5);
+    }
 }

@@ -10,4 +10,4 @@ github_username:  zsteiner
 
 # Build settings
 markdown: kramdown
-gems: [bourbon, neat, jekyll-assets, autoprefixer-rails]
+gems: [bourbon, neat, jekyll-assets, octopress-autoprefixer]
