@@ -3,10 +3,6 @@
     left: -110%;
 }
 
-nav {
-    transition: all ease-in-out .4s;
-}
-
 .menu-button {
     position: absolute;
     top: spacer(.5);
@@ -87,7 +83,9 @@ nav {
             border-bottom: 1px solid $grey;
             text-align: left;
             background-color: $trans-white;
+            visibility: hidden;
             z-index: 10;
+            //transition: height linear 1s;   
             
             li {
                 display: block;
@@ -110,6 +108,7 @@ nav {
 
     .menu-toggle:checked ~ .nav-top {
         top: 0;
+        visibility: visible;
     }   
 
     .menu-toggle:checked ~ .menu-button .menu-button {

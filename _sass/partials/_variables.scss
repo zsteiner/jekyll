@@ -10,8 +10,13 @@ $trans-white: transparentize(white, .1);
 $spacer-unit: 1rem;
 $gutter: modular-scale(1, $spacer-unit, $golden);
 
-$font-serif: Clarendon, Superclarendon, Georgia, serif;
+//$font-serif: Clarendon, Superclarendon, Georgia, serif;
+$font-serif: Source Serif Pro, Georgia, serif;
 $font-sans-serif: Proxima Nova, Helvetica, sans-serif;
+$font-mono: Panic Sans, Courier, monospaced;
+
+//For Max Width Posts
+$max-width: 70em;
 
 $mobile-width: 760px;
 $mobile: new-breakpoint(max-width $mobile-width 4);

@@ -8,7 +8,7 @@ categories:
 ---
 I figured what was going on with the inaccurate scatter plot from the Chart Builder. For some reason, the variables were being treated as Nominal, despite the variable view showing them as Scale!
 
-<img class="alignnone size-full wp-image-147" title="variables" src="http://zachsteiner.com/wp-content/uploads/2009/03/variables2.png" alt="variables" width="600" height="114" />
+<img class="alignnone size-full wp-image-147" title="variables" src="/images/posts/2009/03/variables2.png" alt="variables" width="600" height="114" />
 
 This may be an artifact of an import from SAS, but the Legacy Dialogs and Descriptives treat both variables as if they are Scale. Even though, I was able to get a correct graph by changing the variables to Nominal and back to Scale, I am left just as befuddled how this even happened in the first place. It seems that you may be better off using Excel (or Numbers!) for graphing.
 

@@ -33,6 +33,7 @@ h1 {
 }
 
 @import "partials/typography";
+@import "syntax-highlighting";
 @import "partials/nav";
 @import "partials/header";
 @import "partials/footer";
@@ -41,4 +42,3 @@ h1 {
 @import "partials/post-list";
 @import "partials/post";
 @import "partials/post-nav";
-@import "syntax-highlighting";

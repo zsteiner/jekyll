@@ -8,13 +8,13 @@ layout: default
                 <a href="{{page.next.url}}" rel="prev">
                     <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>{{page.next.title}}</a>
             {% else %}
-                <a href="/index.html" rel="prev"><svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>home</a>
+                <a href="/index.html" rel="prev"><svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>Posts</a>
             {% endif %}
         </li>
         <li>
-            {% if page.previous.url %} 
+            {% if page.previous.url %}
             <a href="{{page.previous.url}}" rel="next">
-                {{page.previous.title}}<svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-right"></use></svg></a>
+                <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-right"></use></svg>{{page.previous.title}}</a>
             {% endif %}
         </li>
     </ul>
@@ -41,14 +41,16 @@ layout: default
     <ul>
         <li>
             {% if page.next.url %} 
-                <a href="{{page.next.url}}" rel="prev">{{page.next.title}}</a>
+                <a href="{{page.next.url}}" rel="prev">
+                    <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>{{page.next.title}}</a>
             {% else %}
-                <a href="/index.html" rel="prev">home</a>
+                <a href="/index.html" rel="prev"><svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>Posts</a>
             {% endif %}
         </li>
         <li>
-            {% if page.previous.url %} 
-            <a href="{{page.previous.url}}" rel="next">{{page.previous.title}}</a>
+            {% if page.previous.url %}
+            <a href="{{page.previous.url}}" rel="next">
+                <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-right"></use></svg>{{page.previous.title}}</a>
             {% endif %}
         </li>
     </ul>
