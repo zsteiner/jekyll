@@ -17,8 +17,6 @@
         font-size: 1rem;
         padding: 0;
         line-height: 1.25;
-        //height: 2.25rem;
-        overflow: hidden;
         position: relative;
      
         svg {
@@ -33,6 +31,7 @@
     
     .icon {
         margin-bottom: spacer(1);
+        top: -.05rem;
     }
 }
 
