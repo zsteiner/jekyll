@@ -17,23 +17,26 @@
     border-bottom: $structure-border;
     padding: spacer(.5) spacer(1) 0; 
     background: $trans-white;
+
+    @include media($mobile) {
+        height: 4.25em;
+    }
     
     h1 {
         position: absolute;
         height: 3em;
         width: 13em;
         margin-bottom: spacer(.5);
+
+        @include media($mobile) {
+            right: spacer(1);
+            top: 0;
+            background: $trans-white url(../images/initials.svg) no-repeat right 0 bottom 0;
+            margin: 0;
+            background-size: 4em;
+            height: 4em;
+            width: 4em;         
+        }
     }
 }
 
-@media (max-width: $mobile-width) {
- .header-main {
-     background: $trans-white url(../images/initials.svg) no-repeat right spacer(1) bottom 0;
-     background-size: 4em;
-     min-height: 4em;
-     
-     h1 {
-         height: 0;
-     }
- }   
-}

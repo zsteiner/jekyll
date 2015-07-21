@@ -4,7 +4,7 @@ author: Zach
 layout: post
 permalink: /2014/06/font-cage-match-or-when-the-same-font-isnt-the-same-font/
 categories:
-  - Computers
+  - UX
 ---
 ## A bit of context.
 

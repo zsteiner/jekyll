@@ -4,7 +4,7 @@ author: Zach
 layout: post
 permalink: /2009/04/death-to-folder-hierarchies/
 categories:
-  - Computers
+  - UX
 ---
 Receiving materials from a classmate has made the issue of folder hierarchies more salient to me. In these comprehensive exam materials, articles are arranged by topic, which makes sense, but before that there is a dichotomous hierarchy imposed on the topics: industrial and organizational (I dislike this false distinction in my field, but that's another story). These higher order folders only have folders in them. This creates more drilling down every time I need to access articles. This creates the decision whether the topic I need is in "I" or "O." Then there are subfolders within topics, so I need to remember whether a topic is I or O AND whether it subsumed by another topic. This creates a lot of cognitive load.
 

@@ -10,9 +10,11 @@
         margin: spacer(1) 0;          
     }
     
+    &-title {
+        text-transform: capitalize;
+    }
     
     &-header {
-        min-height: 5em;
         
         h1 {
             font-size: 2em;
@@ -114,4 +116,33 @@ pre {
 .post-image-right {
     float: right;
     padding:  0 spacer(1) spacer(1);
+}
+
+.icon {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    fill: currentColor;
+}
+
+.contact {
+    font-size: 1.25em;
+    margin: spacer(2) 0;
+    
+    a {
+        border-bottom: 0;
+    }
+    
+    li {
+        display: inline-block;
+        
+        &:not(:last-child) {
+            margin-right: spacer(3);
+        }
+    }
+    
+    .icon {
+        margin-right: .3em;
+        top: .15em;
+    }
 }

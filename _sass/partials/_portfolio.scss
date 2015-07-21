@@ -1,0 +1,32 @@
+.portfolio {
+    &-links {
+        //@include outer-container;
+        @include clearfix;
+
+    }
+    
+    &-item {
+        @include span-columns(6);
+        @include omega(2n);
+        @include clearfix;
+        
+        @include media($mobile) {
+            @include span-columns(4);
+        }
+        padding: 1em 2em 2em;
+    }
+    
+    &-thumbnail {
+        background-color: white;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    &-description {
+        font-size: .875em;
+    }
+}
+
+    
