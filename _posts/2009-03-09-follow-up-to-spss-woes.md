@@ -4,7 +4,8 @@ author: Zach
 layout: post
 permalink: /2009/03/follow-up-to-spss-woes/
 categories:
-  - Uncategorized
+  - Psychology
+  - UX
 ---
 I figured what was going on with the inaccurate scatter plot from the Chart Builder. For some reason, the variables were being treated as Nominal, despite the variable view showing them as Scale!
 

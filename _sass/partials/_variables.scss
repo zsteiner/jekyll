@@ -24,3 +24,11 @@ $mobile: new-breakpoint(max-width $mobile-width 4);
 $structure-border: 1px solid $mid-grey;
 
 $year: '2015';
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

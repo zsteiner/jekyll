@@ -6,6 +6,7 @@ layout: post
 permalink: /2009/03/spss-wtf-moment/
 categories:
   - Psychology
+  - UX
 ---
 I am the lab instructor for a graduate psychology statistics course. For my class's homework, they were required to figure out if a linear regression transformation was warranted for a sample data set. When assessing the skewness of a distribution, scatterplots are invaluable. Unfortunately, SPSS does not render them consistently even within itself. The data set is very skewed and requires natural log transformations for both X and Y to not violate assumptions of linear regression.
 

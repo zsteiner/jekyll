@@ -4,7 +4,7 @@ author: Zach
 layout: post
 permalink: /2014/06/icon-fonts-in-internet-explorer/
 categories:
-  - Computers
+  - UX
 ---
 [Icon fonts are amazing][1]. I wholeheartedly adopted them for our HTML redesign. That is, until I did a client demo that is. None of the icons loaded, strewing Unicode boxes and Unicode fallbacks. It broke layouts. I was embarrassed and confused. "But  IE6 [supports @font-face][2]", I yelled! We tested in IE8, IE9, and even IE7 for yucks! I had set all of the *.eot declarations properly! There is almost nothing written about this in [discussions of icon fonts][3]. After our QA team going through methodically switching security settings one and a time and reloading, we discovered the worst setting in Internet Explorer:
 
