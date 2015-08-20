@@ -8,7 +8,7 @@ categories:
 ---
 [Icon fonts are amazing][1]. I wholeheartedly adopted them for our HTML redesign. That is, until I did a client demo that is. None of the icons loaded, strewing Unicode boxes and Unicode fallbacks. It broke layouts. I was embarrassed and confused. "But  IE6 [supports @font-face][2]", I yelled! We tested in IE8, IE9, and even IE7 for yucks! I had set all of the *.eot declarations properly! There is almost nothing written about this in [discussions of icon fonts][3]. After our QA team going through methodically switching security settings one and a time and reloading, we discovered the worst setting in Internet Explorer:
 
-[<img class="aligncenter wp-image-264 size-large" src="/images/posts/2014/06/Screen-Shot-2014-06-25-at-6.05.13-PM-853x1024.png" alt="Screen Shot 2014-06-25 at 6.05.13 PM" width="604" height="725" />][4]
+[<img class="" src="/images/posts/2014/06/ie-setting.png" alt="IE Font Setting" width="604" height="725" />][4]
 
 Not only does our government client have this setting enabled as a custom security setting organization wide, but it persists into current versions of Internet Explorer (at least as of IE11). It's a Windows setting. This client does not allow other browsers whatsoever. Chalk this up for another tally in the [SVG icons][5]. There goes are great idea to use icon fonts...
 
@@ -29,7 +29,7 @@ We standardized our icons in[ IcoMoon][8] at 32px x 32px. We then standardized c
 </g>
 {% endhighlight %}
 
-Global find and replace makes it easy to add the same line to all SVG files we use. [<img class="aligncenter size-medium wp-image-289" src="/images/posts/2014/06/Screen-Shot-2014-06-29-at-12.40.02-PM1-44x300.png" alt="Calendar Icon" width="44" height="300" />][9] We would have loved to do one big sprite with all icons and multiple colors, but alas Firefox does not support background-position-x and background-position-y separately. Specifying 100 icons x 7 color classes was a non-starter. I would never want to specify something like ".icon-calendar-red" as one of 700+ classes. We settled on icon classes (.icon-calendar chooses the file) and a separate color class (.c-warning changes the background x position across all icons). Adding a new color only adds a single class definition, rather than 100+.  All the classes are built with a Sass partial: a map for the icon and a map + loop with clever division for the colors. This also allows a mixin to add the icon to arbitrary selectors with only:
+Global find and replace makes it easy to add the same line to all SVG files we use. [<img class="" src="/images/posts/2014/06/calender-sprite.png" alt="Calendar Sprite" width="44" height="300" />][9] We would have loved to do one big sprite with all icons and multiple colors, but alas Firefox does not support background-position-x and background-position-y separately. Specifying 100 icons x 7 color classes was a non-starter. I would never want to specify something like ".icon-calendar-red" as one of 700+ classes. We settled on icon classes (.icon-calendar chooses the file) and a separate color class (.c-warning changes the background x position across all icons). Adding a new color only adds a single class definition, rather than 100+.  All the classes are built with a Sass partial: a map for the icon and a map + loop with clever division for the colors. This also allows a mixin to add the icon to arbitrary selectors with only:
 
 {% highlight sass %}
 @include icon(calendar, warning);
