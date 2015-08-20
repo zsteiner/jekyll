@@ -18,6 +18,9 @@
     
     &-thumbnail {
         background-color: white;
+        max-height: 30em;
+        overflow: hidden;
+                
         img {
             width: 100%;
             height: auto;

@@ -1,33 +1,27 @@
 nav {
     text-align: right;
-    padding-top: spacer(.5);
     
     li {
         display: inline-block;
-        margin-right: spacer(.5);
-
-        &:last-child {
-            margin-right: 0;
-            
-            a {
-                padding-right: 0;
-            }
+        float: right;
+        padding: spacer(1) spacer(1);
+        height: 100%;
+        border-left: 1px solid $mid-grey;
+        
+        &:hover {
+            background-color: transparentize($dark-blue, .95);
         }
     }
     
     a {
         display: inline-block;
-        font-size: 1.5em;
-        padding: spacer(.5);
-        font-family: $font-serif;
+        width: 100%;
         color: $dark-blue;
-        border-bottom: .25em solid transparent;
+        font-size: 1.5em;
+        font-family: $font-serif;
 
-        &.current {
-            border-bottom-color: $dark-blue;
-        }
+        @include media($mobile) {
+            font-size: 1rem;
+        } 
     }
 }
-
-@import "mobile-nav";
-@import "mobile-nav-component";

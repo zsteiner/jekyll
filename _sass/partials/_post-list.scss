@@ -1,16 +1,15 @@
 .post-list {    
     li {
         @include span-columns(7);
-
         @include media($mobile) {
             @include span-columns(4);
-            
             h2 {
                 font-size: 1em;
             }
         }
         
         padding: spacer(1);
+        margin-bottom: .5em;
         font-family: $font-serif;
         position: relative;
         vertical-align: top;

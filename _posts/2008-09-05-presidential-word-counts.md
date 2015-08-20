@@ -69,4 +69,7 @@ From these results, the McCain has roughly half the content as the Obama campagi
 
 (This post is 545 words. It would be under the limit for a symposium at SIOP, but the statistics are probably skimpy.)
 
+UPDATE: I created an [interactive data visualization][2] for the 2016 election. It includes the data from this post as a comparison to the current candidates.
+
  [1]: /images/posts/2008/09/wordcount_graph.png
+ [2]: http://portfolio.zachsteiner.com/wordcounts

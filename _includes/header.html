@@ -12,19 +12,19 @@
 </svg>
 
 <header class="header-main site-header">
+
+    {% if page.url != "/index.html" %}
     <a class="site-title" href="{{ site.baseurl }}/"><h1>{{ site.title }}</h1></a>
-	<input id="menu-toggle1" type="checkbox" class="menu-toggle">
-	<label for="menu-toggle1" class="menu-button"><span class="menu-button-lines"></span><span class="menu-button-text"></span></label>
+    {% endif %}    
 
     <nav class="nav-top site-nav">
       <ul>
           <li><a href="/index.html">posts</a></li>
         {% for page in site.pages %}
           {% if page.title %}
-        <li>
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        </li>
-
+            <li>
+                  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </li>
           {% endif %}
         {% endfor %}
       </ul>
