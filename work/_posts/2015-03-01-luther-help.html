@@ -1,0 +1,60 @@
+---
+title: Luther Consulting Help System
+author: Zach
+layout: work-post
+permalink: /2015/08/luther-help/
+image: help.png
+description: Redesign of help system with goals of providing clearer organization and more information about help resources. User research, prototyping, and coded final pages.
+categories:
+  - UX
+  - Information Architecture
+  - Web Development
+  - Design
+---
+
+<section>   
+    <figure class="example-image float-right">
+        <a href="/images/portfolio/help/help-before.png"><img src="/images/portfolio/help/help-before.png" alt="Help Before"></a>
+        <figcaption>Help Page Before</figcaption>
+    </figure>
+
+    <figure class="example-image float-right">
+        <a href="/images/portfolio/help/schemas-before.png"><img src="/images/portfolio/help/schemas-before.png" alt="Schemas Before"></a>
+        <figcaption>XML Schema Before</figcaption>
+    </figure>
+    <p>Project link: <a href="https://help.lutherconsulting.com">help.lutherconsulting.com</a></p>
+	<p>After a conversation with a co-worker expressing frustration with the company's <a href="https://help.lutherconsulting.com">help resources</a>, I mounted a redesign. User-facing help resources, were split between two different HTML pages. Each had begun when the number resources (and staff to support them) was much smaller. Thus, there wasn't consideration of information architecture or layout because there were only a few links and files for each. As the number of resources grew, the had more difficulty accommodating them. Finally, the types of content expanded from a couple of user guides to quick references, computer-based trainings, videos, and data entry templates, documents.<p>
+    <p>The goals of the redesign were to: </p>
+    <ol class="list-number portfolio-list">    
+        <li>Clarify organization and information architecture</li>
+        <li>Provide more information about each resource</li>
+        <li>Provide information about how to seek help from technical support</li>
+        <li>Present a cohesive experience across the resources</li>
+    </ol>
+    </section>   
+
+<section>
+    <figure class="example-image float-right">
+        <a href="/images/portfolio/help/help-after.png"><img src="/images/portfolio/help/help-after.png" alt="Training"></a>
+        <figcaption>New Help Landing</figcaption>
+    </figure>
+    <figure class="example-image float-right">
+        <a href="/images/portfolio/help/help-training.png"><img src="/images/portfolio/help/help-training.png" alt="Training"></a>
+        <figcaption>Training Resources After</figcaption>
+    </figure>
+	<p>To address the first goal, I worked with internal stakeholders to identify the main categories of content and how to best organize the content within them. We arrived at Training, Templates, Upload, Resources (the grab bag). The landing page provides a jumping off place for each and description of the category. The navigation makes it very easy to jump from category to category.
+	<p>Within page, we had the decision to organize by content category or type of resource (e.g., user guide, video, etc.). Despite previously organizing by type, organizing by content fits more with how users will engage with the content. The user doesn't think "I want to watch a video today ", but rather "How do I enter my budget information?". If the help resources offer a quick reference and a video, the user than can choose how much information she wants/needs because they are both presented together. I organized the resources by the brevity: quick references first, then user guides, then videos, and finally computer-based trainings.</p>
+	<p>To fulfill goal 2, I worked with the training team to add blurbs about each resource, so users can have some more information beyond the title as to what they will find. Additionally, I added type of resource and time to complete (for videos and computer-based training). Finally, I added updated date so the user can know how recent the resource is.</p>
+</section>
+<section>   
+    <figure class="example-image float-right">
+        <a href="/images/portfolio/help/help-support.png"><img src="/images/portfolio/help/help-support.png" alt="Support"></a>
+    </figure>
+    <p>Though technical support email and phone number were prominently displayed across company resources and trainings, there were some gaps in information on how to contact technical support. For instance, hours for phone support were missing. Going a step further, I added time detection JavaScript to cue whether it was likely the company was open. This is important for a company that is confusingly position in Eastern Time, but services customers nationwide. This little client-side script proved an interesting challenge. I used <a href="Moment.js">moment.js</a> to detect the time and <a href="http://momentjs.com/timezone/">Moment Timezone</a> to detect the useragent time. Then the script had to detect day and convert time into Eastern time. The UI copy is somewhat of a hedge by saying "We're likely open right now". There's no good way to detect holidays. However, the copy does make a point to say that technical support is open on Federal holidays, an important consideration when working with government employees.</p>
+    <p>Finally, I added some frequent issues and key partner contact information to provide an additional reference for information technical support staff have to give out via email or on the phone regularly.</p>
+    
+    <figure class="example-image float-right">
+        <a href="/images/portfolio/help/help-schemas.png"><img src="/images/portfolio/help/help-schemas.png" alt="Upload Resources"></a>
+    </figure>
+    <p>The final goal was to provide a cohesive experience across the resources. The before screenshots had resources split before two pages with very different formats. The redesign brought all of the resources into a predictable format. The upload information benefitted even more than training materials. As upload information is versioned, it became important to differentiate the current version from archived versions (that are still used by certain users). All of the sections have keyword filtering courtesy of <a href="">list.js</a> to make, particularly the history, easier to digest.</p>    
+</section>

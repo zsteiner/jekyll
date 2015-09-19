@@ -1,8 +1,10 @@
 ---
 title: UX Principles
 author: Zach
-layout: post
-permalink: /2015/07/ux-principles/
+layout: work-post
+permalink: /2015/07/ux-principles-portfolio/
+image: ux-principles.svg
+description: I've maintained a living list of guiding principles for my UX work. The principles are a synthesis of established UX thought, applications of psychological research, and personal experience. Rather than keeping it in my head and on various white boards, I've formalized it as post on zachsteiner.com.
 categories:
   - UX
 ---

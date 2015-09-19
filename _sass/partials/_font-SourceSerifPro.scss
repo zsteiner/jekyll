@@ -8,7 +8,8 @@ $location: "../fonts/#{$fontName}";
 //LIGHT WEIGHT
 @font-face {
 	font-family: "#{$fontFamilyName}";
-	src: url("#{$location}/#{$fontName}-Light.otf.woff") format("woff"),
+	src: local('#{$fontFamilyName}'),  
+         url("#{$location}/#{$fontName}-Light.otf.woff") format("woff"),
 	 	 url("#{$location}/#{$fontName}-Light.otf") format("opentype");
 	font-weight: normal;
 	font-weight: 300;
@@ -18,7 +19,8 @@ $location: "../fonts/#{$fontName}";
 //REGULAR WEIGHT
 @font-face {
 	font-family: "#{$fontFamilyName}";
-	src: url("#{$location}/#{$fontName}-Regular.otf.woff") format("woff"),
+	src: local('#{$fontFamilyName}'),  
+    	 url("#{$location}/#{$fontName}-Regular.otf.woff") format("woff"),
 	 	 url("#{$location}/#{$fontName}-Regular.otf") format("opentype");
 	font-weight: normal;
 	font-weight: 400;
@@ -28,7 +30,8 @@ $location: "../fonts/#{$fontName}";
 //BOLD WEIGHT
 @font-face {
 	font-family: "#{$fontFamilyName}";
-	src: url("#{$location}/#{$fontName}-Bold.otf.woff") format("woff"),
+	src: local('#{$fontFamilyName}'),  
+    	 url("#{$location}/#{$fontName}-Bold.otf.woff") format("woff"),
 		 url("#{$location}/#{$fontName}-Bold.otf") format("opentype");
 	font-weight: bolder;
 	font-weight: 700;
@@ -38,7 +41,8 @@ $location: "../fonts/#{$fontName}";
 //BLACK WEIGHT
 @font-face {
 	font-family: "#{$fontFamilyName}";
-	src: url("#{$location}/#{$fontName}-BLACK.otf.woff") format("woff"),
+	src: local('#{$fontFamilyName}'),  
+    	 url("#{$location}/#{$fontName}-BLACK.otf.woff") format("woff"),
 		 url("#{$location}/#{$fontName}-BLACK.otf") format("opentype");
 	font-weight: bolder;
 	font-weight: 800;

@@ -1,14 +1,27 @@
 ---
 layout: default
 ---
+<svg display="none" width="0" height="0" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-back" viewBox="0 0 1024 1024">
+	<title>back</title>
+	<path class="path1" d="M711.219 891.802c13.722 13.926 13.722 36.301 0 50.125s-35.891 13.875-49.613 0l-400.896-404.89c-13.722-13.824-13.722-36.198 0-50.125l400.896-404.89c13.722-13.824 35.891-13.824 49.613 0 13.722 13.875 13.722 36.301 0 50.125l-365.619 379.853 365.619 379.802z"></path>
+</symbol>
+<symbol id="icon-view" viewBox="0 0 1024 1024">
+	<title>visibility</title>
+	<path class="path1" d="M512 384q52 0 90 38t38 90-38 90-90 38-90-38-38-90 38-90 90-38zM512 726q88 0 151-63t63-151-63-151-151-63-151 63-63 151 63 151 151 63zM512 192q158 0 286 88t184 232q-56 144-184 232t-286 88-286-88-184-232q56-144 184-232t286-88z"></path>
+</symbol>
+</defs>
+</svg>
+
 <nav class="post-nav">
     <ul>
         <li>
-            {% if page.next %}
+            {% if page.next%}
                 <a href="{{page.next.url}}" rel="prev">
                     <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>{{page.next.title}}</a>
             {% else %}
-                <a href="/index.html" rel="prev"><svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>Posts</a>
+                <a href="/portfolio/" rel="prev"><svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>Portfolio</a>
             {% endif %}
         </li>
         <li>
@@ -44,7 +57,7 @@ layout: default
                 <a href="{{page.next.url}}" rel="prev">
                     <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>{{page.next.title}}</a>
             {% else %}
-                <a href="/index.html" rel="prev"><svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>Posts</a>
+                <a href="/portfolio/" rel="prev"><svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>Portfolio</a>
             {% endif %}
         </li>
         <li>

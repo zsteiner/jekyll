@@ -32,4 +32,22 @@
     }
 }
 
+section {
+    overflow: auto;
+}
+
+.view-link {
+    display: inline-block;
+    font-size: 2em;
+    border: 0 !important;
+    margin-bottom: spacer(1.5);
+    line-height: 1;
     
+    .icon {
+        top: .25em;
+    }
+}
+
+@import 'portfolio/albums';
+@import 'portfolio/figures';
+@import 'portfolio/frames';
