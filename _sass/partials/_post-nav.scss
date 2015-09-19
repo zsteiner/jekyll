@@ -12,6 +12,10 @@
         &:first-child {
             text-align: left;            
         }
+
+        &:hover {
+            background: none;
+        }
     }
     
     a {
@@ -19,7 +23,7 @@
         padding: 0;
         line-height: 1.25;
         position: relative;
-     
+        
         svg {
             fill: currentColor;
             top: .2em; 
@@ -32,14 +36,15 @@
     
     .icon {
         margin-bottom: spacer(1);
+        font-size: 1.25em;
         top: -.05rem;
     }
 }
 
 .icon {
     position: relative;
-    height: 1.25rem;
-    width: 1.25rem;
+    height: 1em;
+    width: 1em;
 }
 
 [rel="prev"] {

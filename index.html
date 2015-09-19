@@ -9,7 +9,7 @@ layout: default
 <div class="main-content">
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in site.categories['blog'] %}
           <li>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 <div class="post-meta">

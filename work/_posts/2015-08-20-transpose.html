@@ -1,0 +1,67 @@
+---
+title: Transpose
+author: Zach
+layout: work-post
+permalink: /2015/08/transpose/
+image: transpose.png
+description: Web application to make note transposing easier for musicians. UX description and mockups made in Sketch. Developed JavaScript application for proof of concept.
+categories:
+  - UX
+  - Web Development
+  - Design
+---
+
+<section>   
+	<div>   
+		<a class="view-link" href="http://transpose.zachsteiner.com"><svg class="icon"><use xlink:href="#icon-view"></use></svg> View Live Demo</a>
+		<p class="note">I've created an initial functional version in JavaScript. Currently, it only supports transposing a single note.</p>
+	</div>
+	
+     <figure class="example-image float-right">
+        <a href="/images/portfolio/transpose/cheatsheet.png"><img src="/images/portfolio/transpose/cheatsheet.png" alt="Cheat Sheet"></a>
+        <figcaption>Cheatsheet</figcaption>
+    </figure>
+	<p>I've played saxophone for more than 20 years; never professionally, but occasionally with other instruments. The saxophone family is weird and wonderful, by design. There are saxophones in all shapes and sizes, but they are unified by a common key layout. So I only need to adjust my breath support and embouchure to switch from soprano to baritone sax. A G has the same fingering on all saxophones. There's an interesting catch, however. That G that I'm playing on a soprano is not the same actual note as on an alto or baritone. Not just a different octave, but actually a different note. Soprano and tenor are B flat instruments (keeping company with trumpet, clarinet), whereas alto and baritone are E flat instruments. Thus the fun of playing transposing instruments. Due to the vagaries of transposing instruments, I've experienced the awkward situation of everyone in the band playing "Autumn Leaves" in a different key. That happened when I sat in with a jazz trio. Referencing transpositions quickly is important when you're in the heat of playing or in dark basements or clubs.
+	<p>For when I played out, I made cheat sheets on 4'x6' index cards for alto and soprano. I've long kicked around the idea of an app to make this easier. Thus, the concept for transpose. There are a lot of transposing tools out there that take a note or scale and transpose it to another key. They have uninspiring interfaces, but more importantly they never approach the UI from a transposing instrument standpoint. I want the app to clearly answer the question: What does this particular note sound like on my instrument. If I play a G on alto sax what is that on piano? This concept shows the workflow and interface design.</p>            		
+</section>
+<section>
+    <section>
+         <figure class="example-image phone-example float-left">
+            <div class="phone-frame"><a href="/images/portfolio/transpose/transpose.png"><img src="/images/portfolio/transpose/transpose.png" alt="Selection"></a></div>
+            <figcaption>Main Screen on Phone</figcaption>
+        </figure>
+         <figure class="example-image tablet-example float-left">
+            <div class="tablet-frame tablet-portrait"><a href="/images/portfolio/transpose/tablet.png"><img src="/images/portfolio/transpose/tablet.png" alt="Selection"></a></div>
+            <figcaption>Tablet Version</figcaption>
+        </figure>
+    </section>
+    <section>
+         <figure class="example-image phone-example float-right">
+            <div class="phone-frame"><a href="/images/portfolio/transpose/transpose-selection.png"><img src="/images/portfolio/transpose/transpose-selection.png" alt="Selection"></a></div>
+            <figcaption>Select a note.</figcaption>
+        </figure>
+        <p>The goal for the UI is to be quick to use and easy to read. With the device on the music stand, the result should be easy to read when glancing down. The parameters should be easy to change on the fly. The UI is simply instrument selection and a circle of fifths, which is immediately familiar to musicians. Tap the starting note on the circle and it highlights in blue. The transposed note is indicated by the triangle.</p>
+        <p>The result is given in plain English below the circle. The app assumes some musical knowledge, but shies away from using jargon in UI copy. Though I play instruments and read music, I've never felt comfortable with music jargon. My intent is an approachable, quick reference tool. Jargon simply adds unnecessary cognitive load.</p>
+    </section>
+    <section>
+         <figure class="example-image phone-example float-left">
+            <div class="phone-frame"><a href="/images/portfolio/transpose/transpose-instruments.png"><img src="/images/portfolio/transpose/transpose-instruments.png" alt="Select Instruments"></a></div>
+            <figcaption>Select Instruments</figcaption>
+        </figure>
+        <p>To change the instruments, tap on each to bring up the selection grid. The instruments are laid out with easy to tap targets (90px). This is more visual than a select list and requires less precision. Users potentially have a saxophone or guitar on their lap or around their neck.</p> 
+        <p>Additional instruments can be added by making the grid scrollable. Each instrument will eventually have a custom illustration  by <a href="http://jackieglimp.com">Jackie Glimp</a>. Currently, only piano and alto sax (via free vector icons) are provided as an example. The key of each instrument is used as a placeholder for the mockup.</p>    
+    </section>
+
+</section>
+<section>
+     <figure class="example-image phone-example float-right">
+        <div class="phone-frame"><a href="/images/portfolio/transpose/transpose-scale.png"><img src="/images/portfolio/transpose/transpose-scale.png" alt="Tablet UI"></a></div>
+        <figcaption>Scales Too</figcaption>
+    </figure>
+     <figure class="example-image phone-example float-right">
+        <div class="phone-frame"><a href="/images/portfolio/transpose/transpose-chord.png"><img src="/images/portfolio/transpose/transpose-chord.png" alt="Tablet UI"></a></div>
+        <figcaption>And Chords</figcaption>
+    </figure>
+    <p>I started with the idea for transpose as a simple tool to transpose single notes, but it could easily serve up chords and scales as well. In switching to chord or scale mode, the user then needs to select the target note (B-flat) and type of scale or chord. These will be select lists of the notes (in circle of fifths order) and type of chord (e.g., major triad, minor 7, etc.) or scale (minor, pentatonic, blues, various modes, etc.). Then the application presents the two chords or scales next to each other.</p> 
+    <p>This UI would allow the user to quickly hop between keys, chord type, scale modes, and instruments. This would be particularly useful when trying to play a song in a mutually easy key for the instruments present. The app will remember the instrument selections and original note when switching between note, chord, and scale mode.</p>
+</section>

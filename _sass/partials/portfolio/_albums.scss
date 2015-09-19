@@ -1,0 +1,46 @@
+$info: #959EA5; 
+
+.cover {
+    width: 20rem;
+    height: 20rem;
+    display: inline-block;
+    border: 1px solid lighten($info, 25%);
+    
+    
+    &:not(:last-child) {
+        margin-right: 1rem;   
+    }
+    
+    &--film {
+        height: auto;
+        margin-bottom: 1rem;
+        border: 0;
+    }
+    
+    &--original {
+        width: 15rem;
+        height: 15rem;
+        position: relative;
+        
+        &:before {
+            content: "original";
+            bottom: 0;
+            margin: 0;
+            position: absolute;
+            background: transparentize(gray, .45);
+            color: white;
+            font-size: 2rem;
+            width: 100%;
+            padding: .5rem;
+        }
+    }
+    
+    img {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+article p {
+    margin-bottom: 2rem;
+}
