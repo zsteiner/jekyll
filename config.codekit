@@ -1187,6 +1187,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/images\/portfolio\/albums.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82411,
+		"inputAbbreviatedPath": "\/_site\/images\/portfolio\/albums.png",
+		"outputAbbreviatedPath": "\/_site\/images\/portfolio\/albums.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/images\/portfolio\/help.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1740,6 +1751,17 @@
 		"initialSize": 46017,
 		"inputAbbreviatedPath": "\/images\/nameplate@2x.png",
 		"outputAbbreviatedPath": "\/images\/nameplate@2x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/portfolio\/albums.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82411,
+		"inputAbbreviatedPath": "\/images\/portfolio\/albums.png",
+		"outputAbbreviatedPath": "\/images\/portfolio\/albums.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
