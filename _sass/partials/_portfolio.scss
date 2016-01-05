@@ -1,3 +1,7 @@
+$alert: #FE3D42;
+$warning: #FFCA4C;
+$success: #39EA28;
+
 .portfolio {
     &-links {
         //@include outer-container;
@@ -46,6 +50,41 @@ section {
     .icon {
         top: .25em;
     }
+}
+
+a.b-success,
+a.b-alert,
+a.b-warning {
+    border: 0;
+    
+    .icon {
+        top: .2em;
+    }
+}
+
+a.b-success {
+    color: $success;
+    
+    &:hover {
+        color: darken($success, 20%);
+    }
+}
+
+a.b-alert {
+    color: $alert;
+
+    &:hover {
+        color: darken($alert, 20%);
+    }
+}
+
+a.b-warning {
+    color: $warning;
+
+    &:hover {
+        color: darken($warning, 20%);
+    }
+
 }
 
 @import 'portfolio/albums';
