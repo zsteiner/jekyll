@@ -37,6 +37,7 @@
     
     img {
         width: 100%;
+        min-width: 12em;
         max-width: 36em;
         border: 1px solid $info;
     }
