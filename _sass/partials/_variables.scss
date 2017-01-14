@@ -17,12 +17,9 @@ $font-mono: Panic Sans, Courier, monospaced;
 
 //For Max Width Posts
 $max-width: 70em;
-
 $mobile-width: 770px;
 $mobile: new-breakpoint(max-width $mobile-width 4);
-
 $structure-border: 1px solid $mid-grey;
-
 $year: '2017';
 
 @mixin clearfix {
