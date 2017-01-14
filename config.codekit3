@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.jekyll-metadata": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.jekyll-metadata",
-		"oF": 0
-		},
 	"\/.sass-cache\/005fc060991d9f515a8b1b967c273f63890ae443\/_asset-pipeline.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -897,6 +891,18 @@
 		"oAP": "\/.sass-cache\/210fcc6528961667b273bfe25827e6261ba7ede2\/_visual-grid.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/2269f8984db0b582d730cab2366269bee4432a52\/_new-breakpoint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/2269f8984db0b582d730cab2366269bee4432a52\/_new-breakpoint.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/2269f8984db0b582d730cab2366269bee4432a52\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/2269f8984db0b582d730cab2366269bee4432a52\/_private.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/2716f06fd854559be47d2c753df68abf69a02446\/_assign-inputs.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -985,6 +991,18 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/2716f06fd854559be47d2c753df68abf69a02446\/_unpack.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/2a694083a9a159ea52865461639fc6786f20d831\/_neat-helpers.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/2a694083a9a159ea52865461639fc6786f20d831\/_neat-helpers.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/2a694083a9a159ea52865461639fc6786f20d831\/_neat.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/2a694083a9a159ea52865461639fc6786f20d831\/_neat.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/2a7513d1c10a403437d15bace9728ff695a5c290\/_albums.scssc": {
@@ -1347,6 +1365,96 @@
 		"oAP": "\/.sass-cache\/3891bae3460280d6fb0e61db1050ad3ffa997fe2\/_variables.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_assign-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_assign-inputs.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_contains-falsy.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_contains-falsy.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_contains.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_contains.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-length.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-length.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-light.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-light.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-number.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-number.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_is-size.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_modular-scale.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_modular-scale.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_px-to-rem.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_px-to-rem.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_shade.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_shade.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_strip-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_strip-units.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_tint.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_tint.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_transition-property-name.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_transition-property-name.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_unpack.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/3ba125ba9ba382b8ba035adfd6f7f808ef7ac843\/_unpack.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/3cae9a67312ef68c54a9ee19dce73afb478bb757\/_neat-helpers.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -1471,6 +1579,12 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/49ae37b6c30be4c7f6958f923f3771fe688fa344\/_bourbon.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/4dc05750351af1a6ae2b23fcc6b00dfe2651d7be\/_clearfix.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/4dc05750351af1a6ae2b23fcc6b00dfe2651d7be\/_clearfix.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/4fcb8e5f8c6e7121512ad3c8a1417b25e049414c\/_new-breakpoint.scssc": {
@@ -2005,6 +2119,174 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/67af63928c79e501d54b680ceac7015867f8a5b3\/_visual-grid.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_convert-units.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_convert-units.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_directional-values.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_directional-values.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_font-source-declaration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_font-source-declaration.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_gradient-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_gradient-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-angle-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-angle-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-side-corner-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_linear-side-corner-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_radial-arg-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_radial-arg-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_radial-gradient-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_radial-gradient-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_radial-positions-parser.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_radial-positions-parser.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_render-gradients.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_render-gradients.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_shape-size-stripper.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_shape-size-stripper.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_str-to-num.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6860bce2a2787382f0b6fb1a77370cba391aea36\/_str-to-num.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_box-sizing.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_box-sizing.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_direction-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_direction-context.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_display-context.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_display-context.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_fill-parent.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_fill-parent.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_media.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_media.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_omega.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_omega.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_outer-container.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_outer-container.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_pad.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_pad.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_private.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_private.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_row.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_row.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_shift.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_shift.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_span-columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_span-columns.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_to-deprecate.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_to-deprecate.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/6f00a83cc133d369ff8d4fda624dd876c37ba1fe\/_visual-grid.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/78347f28ed93d5ade6878a8c277cf2a203fbe057\/_border-color.scssc": {
@@ -2661,6 +2943,156 @@
 		"oAP": "\/.sass-cache\/98302391beb18bd1144ec2297c2321918d695bfc\/_str-to-num.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_animation.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_animation.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_appearance.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_appearance.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_backface-visibility.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_backface-visibility.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_background-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_background-image.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_background.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_background.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_border-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_border-image.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_calc.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_calc.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_columns.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_columns.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_filter.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_filter.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_flex-box.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_flex-box.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_font-face.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_font-face.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_font-feature-settings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_font-feature-settings.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_hidpi-media-query.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_hidpi-media-query.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_hyphens.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_hyphens.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_image-rendering.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_image-rendering.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_keyframes.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_keyframes.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_linear-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_linear-gradient.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_perspective.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_perspective.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_placeholder.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_placeholder.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_radial-gradient.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_radial-gradient.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_selection.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_selection.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_text-decoration.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_text-decoration.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_transform.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_transform.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_transition.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_transition.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_user-select.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/9b4b35d424ce3e71d09c68b844dc144314cde8a6\/_user-select.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/a26fe40ee71ed0c2009cc554a67145655021a4f3\/_base.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -2703,6 +3135,18 @@
 		"oAP": "\/.sass-cache\/a400415c49d4c0dac41bf42b679475ed3b3c55d2\/_private.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/ab203e83da1bcab8aaf1944490aaad6dd21d8dcf\/_bourbon-deprecated-upcoming.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/ab203e83da1bcab8aaf1944490aaad6dd21d8dcf\/_bourbon-deprecated-upcoming.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/ab203e83da1bcab8aaf1944490aaad6dd21d8dcf\/_bourbon.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/ab203e83da1bcab8aaf1944490aaad6dd21d8dcf\/_bourbon.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/ad99b356c7ec69397a73429205fd7a2203b87e2c\/_custom.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -2731,6 +3175,24 @@
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/b067d6d94b2a0ed28d4a8b56e21da6ad59b59dc2\/_px-to-em.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/b0da8660c77465f2663742fe3f2394eafcafea07\/_asset-pipeline.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/b0da8660c77465f2663742fe3f2394eafcafea07\/_asset-pipeline.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/b0da8660c77465f2663742fe3f2394eafcafea07\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/b0da8660c77465f2663742fe3f2394eafcafea07\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/b0da8660c77465f2663742fe3f2394eafcafea07\/_px-to-em.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/b0da8660c77465f2663742fe3f2394eafcafea07\/_px-to-em.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/be848ec8192c9cc79652ba17b1c05de6c6133dd6\/_calendar.scssc": {
@@ -2955,10 +3417,142 @@
 		"oAP": "\/.sass-cache\/ceeae32ba80f9396089a96bda6a90c705e250289\/_private.scssc",
 		"oF": 0
 		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-color.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-color.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-radius.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-radius.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-style.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-style.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-width.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_border-width.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_buttons.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_buttons.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_clearfix.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_clearfix.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_ellipsis.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_ellipsis.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_font-stacks.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_font-stacks.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_hide-text.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_hide-text.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_margin.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_margin.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_padding.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_padding.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_position.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_position.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_prefixer.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_prefixer.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_retina-image.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_retina-image.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_size.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_size.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_text-inputs.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_text-inputs.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_timing-functions.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_timing-functions.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_triangle.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_triangle.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_word-wrap.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/da04c09b5d17729f5f3cde4710b074fe0a03b5f1\/_word-wrap.scssc",
+		"oF": 0
+		},
 	"\/.sass-cache\/db244b8914681bc2d60aedbb2e975cae944a7bd3\/_clearfix.scssc": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.sass-cache\/db244b8914681bc2d60aedbb2e975cae944a7bd3\/_clearfix.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/df4494609d326faf65c09697473976e29312f417\/_disable-warnings.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/df4494609d326faf65c09697473976e29312f417\/_disable-warnings.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/df4494609d326faf65c09697473976e29312f417\/_grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/df4494609d326faf65c09697473976e29312f417\/_grid.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/df4494609d326faf65c09697473976e29312f417\/_visual-grid.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/df4494609d326faf65c09697473976e29312f417\/_visual-grid.scssc",
 		"oF": 0
 		},
 	"\/.sass-cache\/e35eff8390bd278464ea0873fba44f0592406bb2\/_assign-inputs.scssc": {
@@ -3820,42 +4414,6 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
-	"\/_site\/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 2441,
-		"oA": 0,
-		"oAP": "\/_site\/android-chrome-192x192.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/android-chrome-512x512.png": {
-		"ft": 32768,
-		"iS": 5483,
-		"oA": 0,
-		"oAP": "\/_site\/android-chrome-512x512.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 2323,
-		"oA": 0,
-		"oAP": "\/_site\/apple-touch-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/browserconfig.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/browserconfig.xml",
-		"oF": 0
-		},
-	"\/_site\/browserslist.config.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/browserslist.config.html",
-		"oF": 0
-		},
 	"\/_site\/css\/main.css": {
 		"aP": 0,
 		"bl": 0,
@@ -3866,1111 +4424,11 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"\/_site\/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 753,
-		"oA": 0,
-		"oAP": "\/_site\/favicon-16x16.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 1007,
-		"oA": 0,
-		"oAP": "\/_site\/favicon-32x32.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/favicon.ico",
-		"oF": 0
-		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_site\/feed.xml",
 		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_0_0.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_0_0.eot",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_0_0.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_0_0.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_0_0.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_0_0.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_0_0.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_0_0.woff2",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_1_0.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_1_0.eot",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_1_0.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_1_0.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_1_0.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_1_0.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_1_0.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_1_0.woff2",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_2_0.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_2_0.eot",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_2_0.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_2_0.ttf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_2_0.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_2_0.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/ProximaNova\/2D9234_2_0.woff2": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/ProximaNova\/2D9234_2_0.woff2",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Black.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Black.otf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Black.otf.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Black.otf.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Bold.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Bold.otf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Bold.otf.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Bold.otf.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-ExtraLight.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-ExtraLight.otf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-ExtraLight.otf.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-ExtraLight.otf.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Light.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Light.otf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Light.otf.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Light.otf.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Regular.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Regular.otf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Regular.otf.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Regular.otf.woff",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Semibold.otf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Semibold.otf",
-		"oF": 0
-		},
-	"\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Semibold.otf.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/fonts\/SourceSerifPro\/SourceSerifPro-Semibold.otf.woff",
-		"oF": 0
-		},
-	"\/_site\/images\/initials.png": {
-		"ft": 32768,
-		"iS": 6062,
-		"oA": 0,
-		"oAP": "\/_site\/images\/initials.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/initials.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/initials.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/initials@2x.png": {
-		"ft": 32768,
-		"iS": 12977,
-		"oA": 0,
-		"oAP": "\/_site\/images\/initials@2x.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/nameplate.png": {
-		"ft": 32768,
-		"iS": 25239,
-		"oA": 0,
-		"oAP": "\/_site\/images\/nameplate.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/nameplate.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/nameplate.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/nameplate@2x.png": {
-		"ft": 32768,
-		"iS": 55976,
-		"oA": 0,
-		"oAP": "\/_site\/images\/nameplate@2x.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/albums.png": {
-		"ft": 32768,
-		"iS": 82411,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/albums.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-1.png": {
-		"ft": 32768,
-		"iS": 82411,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-10.png": {
-		"ft": 32768,
-		"iS": 161887,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-10.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-11.png": {
-		"ft": 32768,
-		"iS": 106683,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-11.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-12.png": {
-		"ft": 32768,
-		"iS": 2059020,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-12.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-13.png": {
-		"ft": 32768,
-		"iS": 1687283,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-13.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-14.png": {
-		"ft": 32768,
-		"iS": 1990537,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-14.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-15.png": {
-		"ft": 32768,
-		"iS": 546127,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-15.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-2.png": {
-		"ft": 32768,
-		"iS": 75790,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-3.png": {
-		"ft": 32768,
-		"iS": 113864,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-3.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-4.png": {
-		"ft": 32768,
-		"iS": 93543,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-4.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-5.png": {
-		"ft": 32768,
-		"iS": 2091135,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-5.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-6.png": {
-		"ft": 32768,
-		"iS": 101720,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-6.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-7.png": {
-		"ft": 32768,
-		"iS": 240745,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-7.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-8.png": {
-		"ft": 32768,
-		"iS": 1432096,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-8.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/album-cover-9.png": {
-		"ft": 32768,
-		"iS": 1984035,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/album-cover-9.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-00.png": {
-		"ft": 32768,
-		"iS": 475954,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-00.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-01.jpg": {
-		"ft": 16384,
-		"iS": 397793,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-01.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-02.png": {
-		"ft": 32768,
-		"iS": 156530,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-02.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-03.png": {
-		"ft": 32768,
-		"iS": 440203,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-03.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-04.png": {
-		"ft": 32768,
-		"iS": 625222,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-04.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-05.png": {
-		"ft": 32768,
-		"iS": 532684,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-05.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-06.png": {
-		"ft": 32768,
-		"iS": 650885,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-06.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-07.png": {
-		"ft": 32768,
-		"iS": 369950,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-07.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/deren-cover-08.jpg": {
-		"ft": 16384,
-		"iS": 455935,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/deren-cover-08.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/original-cover-1.jpg": {
-		"ft": 16384,
-		"iS": 34562,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/original-cover-1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/original-cover-2.jpg": {
-		"ft": 16384,
-		"iS": 39507,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/original-cover-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/original-cover-3.jpg": {
-		"ft": 16384,
-		"iS": 33222,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/original-cover-3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/original-cover-4.jpg": {
-		"ft": 16384,
-		"iS": 30758,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/original-cover-4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/covers\/original-cover-5.jpg": {
-		"ft": 16384,
-		"iS": 34169,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/covers\/original-cover-5.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/films.png": {
-		"ft": 32768,
-		"iS": 98618,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/films.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help.png": {
-		"ft": 32768,
-		"iS": 69570,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/help-after.png": {
-		"ft": 32768,
-		"iS": 69570,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/help-after.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/help-before.png": {
-		"ft": 32768,
-		"iS": 179385,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/help-before.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/help-schemas.png": {
-		"ft": 32768,
-		"iS": 111107,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/help-schemas.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/help-support.png": {
-		"ft": 32768,
-		"iS": 98153,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/help-support.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/help-training.png": {
-		"ft": 32768,
-		"iS": 105440,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/help-training.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/resources-after.png": {
-		"ft": 32768,
-		"iS": 107564,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/resources-after.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/schemas-before.png": {
-		"ft": 32768,
-		"iS": 159859,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/schemas-before.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/templates-after.png": {
-		"ft": 32768,
-		"iS": 93648,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/templates-after.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/help\/upload-after.png": {
-		"ft": 32768,
-		"iS": 108875,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/help\/upload-after.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/hundred-proof.png": {
-		"ft": 32768,
-		"iS": 54318,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/hundred-proof.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake.png": {
-		"ft": 32768,
-		"iS": 220913,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/birthday-tablet.png": {
-		"ft": 32768,
-		"iS": 183956,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/birthday-tablet.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/example-form.png": {
-		"ft": 32768,
-		"iS": 120553,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/example-form.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/example-form2.png": {
-		"ft": 32768,
-		"iS": 140265,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/example-form2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/gender-phone.png": {
-		"ft": 32768,
-		"iS": 70275,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/gender-phone.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/gender-tablet.png": {
-		"ft": 32768,
-		"iS": 123677,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/gender-tablet.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/insurance-tablet.png": {
-		"ft": 32768,
-		"iS": 111018,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/insurance-tablet.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/mentalhealth-tablet.png": {
-		"ft": 32768,
-		"iS": 220851,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/mentalhealth-tablet.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/intake\/rating-tablet.png": {
-		"ft": 32768,
-		"iS": 119231,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/intake\/rating-tablet.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/luther.png": {
-		"ft": 32768,
-		"iS": 110700,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/luther.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/luther\/luther-contact.png": {
-		"ft": 32768,
-		"iS": 93172,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/luther\/luther-contact.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/luther\/luther-mobile.png": {
-		"ft": 32768,
-		"iS": 38722,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/luther\/luther-mobile.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/luther\/luther-nav.png": {
-		"ft": 32768,
-		"iS": 26853,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/luther\/luther-nav.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/luther\/luther-products.png": {
-		"ft": 32768,
-		"iS": 80476,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/luther\/luther-products.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/luther\/luther.png": {
-		"ft": 32768,
-		"iS": 110700,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/luther\/luther.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge.png": {
-		"ft": 32768,
-		"iS": 54805,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge\/merge1.png": {
-		"ft": 32768,
-		"iS": 117623,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge\/merge1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge\/merge2.png": {
-		"ft": 32768,
-		"iS": 121664,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge\/merge2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge\/merge3.png": {
-		"ft": 32768,
-		"iS": 103442,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge\/merge3.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge\/merge4.png": {
-		"ft": 32768,
-		"iS": 66106,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge\/merge4.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge\/merge6.png": {
-		"ft": 32768,
-		"iS": 71180,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge\/merge6.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge\/merge7.png": {
-		"ft": 32768,
-		"iS": 104456,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge\/merge7.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/merge\/merge8.png": {
-		"ft": 32768,
-		"iS": 104017,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/merge\/merge8.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/roadtrip.png": {
-		"ft": 32768,
-		"iS": 701416,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/roadtrip.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose.png": {
-		"ft": 32768,
-		"iS": 52760,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/cheatsheet.png": {
-		"ft": 32768,
-		"iS": 159088,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/cheatsheet.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/tablet.png": {
-		"ft": 32768,
-		"iS": 268436,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/tablet.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/transpose-chord.png": {
-		"ft": 32768,
-		"iS": 122539,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/transpose-chord.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/transpose-instruments.png": {
-		"ft": 32768,
-		"iS": 190257,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/transpose-instruments.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/transpose-scale.png": {
-		"ft": 32768,
-		"iS": 132894,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/transpose-scale.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/transpose-selection-reverse.png": {
-		"ft": 32768,
-		"iS": 160557,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/transpose-selection-reverse.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/transpose-selection.png": {
-		"ft": 32768,
-		"iS": 160114,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/transpose-selection.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/transpose\/transpose.png": {
-		"ft": 32768,
-		"iS": 138818,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/transpose\/transpose.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/portfolio\/ux-principles.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/images\/portfolio\/ux-principles.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/images\/portfolio\/wordcounts.png": {
-		"ft": 32768,
-		"iS": 209430,
-		"oA": 0,
-		"oAP": "\/_site\/images\/portfolio\/wordcounts.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2008\/06\/punklineage.png": {
-		"ft": 32768,
-		"iS": 173758,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2008\/06\/punklineage.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2008\/09\/wordcount_graph.png": {
-		"ft": 32768,
-		"iS": 17469,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2008\/09\/wordcount_graph.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/chartbuilder.png": {
-		"ft": 32768,
-		"iS": 90603,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/chartbuilder.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/chartbuilder1.png": {
-		"ft": 32768,
-		"iS": 90603,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/chartbuilder1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/chartbuilder2.png": {
-		"ft": 32768,
-		"iS": 90603,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/chartbuilder2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/legacy.png": {
-		"ft": 32768,
-		"iS": 66960,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/legacy.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/legacy1.png": {
-		"ft": 32768,
-		"iS": 66960,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/legacy1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/legacy2.png": {
-		"ft": 32768,
-		"iS": 66960,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/legacy2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/numbers.png": {
-		"ft": 32768,
-		"iS": 15759,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/numbers.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/numbers1.png": {
-		"ft": 32768,
-		"iS": 13368,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/numbers1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/numbers11.png": {
-		"ft": 32768,
-		"iS": 13368,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/numbers11.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/numbers12.png": {
-		"ft": 32768,
-		"iS": 13368,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/numbers12.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/numbers2.png": {
-		"ft": 32768,
-		"iS": 15759,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/numbers2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/numbers3.png": {
-		"ft": 32768,
-		"iS": 15759,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/numbers3.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/variables.png": {
-		"ft": 32768,
-		"iS": 45261,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/variables.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/variables1.png": {
-		"ft": 32768,
-		"iS": 45261,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/variables1.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2009\/03\/variables2.png": {
-		"ft": 32768,
-		"iS": 45261,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2009\/03\/variables2.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/calender-sprite.png": {
-		"ft": 32768,
-		"iS": 8531,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/calender-sprite.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/font-comparison-final.png": {
-		"ft": 32768,
-		"iS": 111516,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/font-comparison-final.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/font-comparison-ie9.png": {
-		"ft": 32768,
-		"iS": 115020,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/font-comparison-ie9.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/font-comparison-osx.png": {
-		"ft": 32768,
-		"iS": 164035,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/font-comparison-osx.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/font-squirrel.png": {
-		"ft": 32768,
-		"iS": 50447,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/font-squirrel.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/ie-setting.png": {
-		"ft": 32768,
-		"iS": 99813,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/ie-setting.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/nav-search.png": {
-		"ft": 32768,
-		"iS": 6481,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/nav-search.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/06\/Screen-Shot-2014-06-29-at-1.17.57-PM.png": {
-		"ft": 32768,
-		"iS": 159253,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/06\/Screen-Shot-2014-06-29-at-1.17.57-PM.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/09\/itunes-checking.jpg": {
-		"ft": 16384,
-		"iS": 45977,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/09\/itunes-checking.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/09\/pizza1.jpg": {
-		"ft": 16384,
-		"iS": 184754,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/09\/pizza1.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/09\/pizza2.jpg": {
-		"ft": 16384,
-		"iS": 244748,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/09\/pizza2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/09\/pizza3.jpg": {
-		"ft": 16384,
-		"iS": 254227,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/09\/pizza3.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/2014\/09\/pizza4.jpg": {
-		"ft": 16384,
-		"iS": 150263,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/2014\/09\/pizza4.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/posts\/Mutantes_Cometas.jpg": {
-		"ft": 16384,
-		"iS": 53459,
-		"oA": 0,
-		"oAP": "\/_site\/images\/posts\/Mutantes_Cometas.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/sax-background.png": {
-		"ft": 32768,
-		"iS": 128265,
-		"oA": 0,
-		"oAP": "\/_site\/images\/sax-background.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/images\/sax-background@2x.png": {
-		"ft": 32768,
-		"iS": 277251,
-		"oA": 0,
-		"oAP": "\/_site\/images\/sax-background@2x.png",
-		"oF": 0,
-		"opt": 0
 		},
 	"\/_site\/index.html": {
 		"ft": 8192,
@@ -4978,87 +4436,11 @@
 		"oAP": "\/_site\/index.html",
 		"oF": 0
 		},
-	"\/_site\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/_site\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/_site\/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 2437,
-		"oA": 0,
-		"oAP": "\/_site\/mstile-144x144.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 2460,
-		"oA": 0,
-		"oAP": "\/_site\/mstile-150x150.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 2586,
-		"oA": 0,
-		"oAP": "\/_site\/mstile-310x150.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/mstile-310x310.png": {
-		"ft": 32768,
-		"iS": 4351,
-		"oA": 0,
-		"oAP": "\/_site\/mstile-310x310.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 1904,
-		"oA": 0,
-		"oAP": "\/_site\/mstile-70x70.png",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/_site\/portfolio\/index.html": {
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_site\/portfolio\/index.html",
 		"oF": 0
-		},
-	"\/_site\/README.md": {
-		"cS": 0,
-		"eF": 0,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "\/_site\/README.html",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/_site\/safari-pinned-tab.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/safari-pinned-tab.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/about.html": {
 		"ft": 8192,
