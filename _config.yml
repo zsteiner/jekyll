@@ -11,3 +11,7 @@ github_username:  zsteiner
 # Build settings
 markdown: kramdown
 gems: [bourbon, neat, octopress-autoprefixer]
+
+exclude:
+- config.codekit3
+- README.md
