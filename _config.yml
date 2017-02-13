@@ -10,6 +10,9 @@ github_username:  zsteiner
 
 # Build settings
 markdown: kramdown
+sass:
+    sass_dir: _sass
+    sourcemap: true
 gems: [bourbon, neat, octopress-autoprefixer]
 
 exclude:

@@ -8,14 +8,14 @@
 
 body {
 
-    background: $white url(../images/sax-background.png) no-repeat fixed 120% top;
+    background: $white url(../images/sax-background.png) no-repeat fixed 70vw top;
     background-size: contain;
     font-family: $font-serif;
     color: $charcoal;    
     
     @include media($mobile) {
        background-size: auto 93vh;
-       background-position: 350% top;
+       background-position: 80vw top;
     }
 }
 

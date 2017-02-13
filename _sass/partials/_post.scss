@@ -2,7 +2,6 @@
     margin: spacer(1) auto;
     padding: spacer(2);
     line-height: 1.5;
-    background: $trans-white;
     max-width: $max-width;
     
     @include media($mobile) {
