@@ -5,7 +5,7 @@ $info: #959EA5;
     height: 18rem;
     display: inline-block;
     border: 1px solid lighten($info, 25%);
-    
+    margin-bottom: 1rem;
     
     &:not(:last-child) {
         margin-right: 1rem;   
@@ -21,6 +21,7 @@ $info: #959EA5;
         width: 15rem;
         height: 15rem;
         position: relative;
+        display: block;
         
         &:before {
             content: "original";
