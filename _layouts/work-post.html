@@ -53,7 +53,7 @@ layout: default
 <nav class="post-nav">
     <ul>
         <li>
-            {% if page.next %}
+            {% if page.next and page.next.categories contains "work" %}
                 <a href="{{page.next.url}}" rel="prev">
                     <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-left"></use></svg>{{page.next.title}}</a>
             {% else %}
@@ -61,7 +61,7 @@ layout: default
             {% endif %}
         </li>
         <li>
-            {% if page.previous %}
+            {% if page.previous and page.previous.categories contains "work" %}
             <a href="{{page.previous.url}}" rel="next">
                 <svg class="icon icon-chevron-thin-left"><use xlink:href="#icon-chevron-thin-right"></use></svg>{{page.previous.title}}</a>
             {% endif %}

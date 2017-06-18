@@ -9,7 +9,7 @@ $white: #fff;
 $trans-white: transparentize(white, .1);
 
 $spacer-unit: 1rem;
-$gutter: modular-scale(1, $spacer-unit, $golden);
+$gutter: 1rem;
 
 //$font-serif: Clarendon, Superclarendon, Georgia, serif;
 $font-serif: Source Serif Pro, Georgia, serif;
@@ -19,7 +19,8 @@ $font-mono: Panic Sans, Courier, monospaced;
 //For Max Width Posts
 $max-width: 45em;
 $mobile-width: 48em;
-$mobile: new-breakpoint(max-width $mobile-width 4);
+// $mobile: new-breakpoint(max-width $mobile-width 4);
+
 $structure-border: 1px solid $mid-grey;
 
 @mixin clearfix {
@@ -28,4 +29,10 @@ $structure-border: 1px solid $mid-grey;
     display: table;
     clear: both;
   }
+}
+
+@mixin outer-container {
+    max-width: $max-width;
+    margin-left: auto;
+    margin-right: auto;
 }

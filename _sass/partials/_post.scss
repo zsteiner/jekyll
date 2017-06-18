@@ -4,7 +4,7 @@
     line-height: 1.5;
     max-width: $max-width;
     
-    @include media($mobile) {
+    @media screen and (max-width: $mobile-width) {
         margin: spacer(1) 0;          
     }
     

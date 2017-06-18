@@ -13,7 +13,22 @@ markdown: kramdown
 sass:
     sass_dir: _sass
     sourcemap: true
-gems: [bourbon, neat, octopress-autoprefixer]
+
+gems: 
+- jekyll-autoprefixer
+- octopress-minify-html
+
+autoprefixer:
+  browsers:
+  - last 4 versions
+  - Safari 8
+  - IE 11
+
+exclude: 
+- config.rb
+- _config.yml
+- README.md
+- config.codekit3
 
 exclude:
 - config.codekit3

@@ -1,13 +1,16 @@
 .post-nav {
-    @include outer-container(100%);
+    width: 100%;
     padding: spacer(1) spacer(1) 0;
     max-width: $max-width;
+    @include outer-container;
 
     li {
         display: block;
         padding: 0;
         border: 0;
-        @include span-columns(6);
+        // @include span-columns(6);
+        width: 50%;
+        float: left;
         
         &:first-child {
             text-align: left;            

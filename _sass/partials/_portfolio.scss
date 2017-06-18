@@ -4,20 +4,19 @@ $success: #39EA28;
 
 .portfolio {
     &-links {
-        //@include outer-container;
-        @include clearfix;
+        columns: 2;
+        column-gap: 3rem;
 
+        @media screen and (max-width: $mobile-width) {
+            columns: 1;
+        } 
     }
     
     &-item {
-        @include span-columns(6);
-        @include omega(2n);
-        @include clearfix;
-        
-        @include media($mobile) {
-            @include span-columns(4);
-        }
-        padding: 1em 2em 2em;
+        padding: 1rem 0;
+        -webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
     }
     
     &-thumbnail {
