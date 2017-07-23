@@ -8,17 +8,17 @@ permalink: /portfolio/
 <div class="portfolio-links">   
     <ul>    
         {% for post in site.categories['work'] %}
-            <li class="portfolio-item">
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                    <div class="portfolio-thumbnail">   
-                        <img src="../images/portfolio/{{ post.image }}" alt="{{ post.image }}"/>
-                    </div>
-                    <h1>{{ post.title }}</h1>
-                </a>
-                <p class="portfolio-description">
-                    {{ post.description }}
-                </p>
-            </li>
+          <li class="portfolio-item">
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                  <div class="portfolio-thumbnail">   
+                      <img src="../images/portfolio/{{ post.image }}" alt="{{ post.image }}"/>
+                  </div>
+                  <h1>{{ post.title }}</h1>
+              </a>
+              <p class="portfolio-description">
+                  {{ post.description }}
+              </p>
+          </li>
         {% endfor %}
     </ul>    
 </div>

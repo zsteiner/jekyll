@@ -13,16 +13,16 @@
 
 <header class="header-main site-header">
     {% if page.url != "/index.html" %}
-    <a class="site-title" href="{{ site.baseurl }}/"><h1>{{ site.title }}</h1></a>
+      <a class="site-title" href="{{ site.baseurl }}/"><h1>{{ site.title }}</h1></a>
     {% endif %}    
 
     <nav class="nav-top site-nav">
       <ul>
-          <li><a href="/index.html">posts</a></li>
+        <li><a href="/posts.html">posts</a></li>
         {% for page in site.pages %}
           {% if page.title %}
             <li>
-                  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             </li>
           {% endif %}
         {% endfor %}
