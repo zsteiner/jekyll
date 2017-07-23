@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<header class="header-title">
+    <h1>zach steiner</h1>
+    <h2>workplace psychology, UX, music, sometimes cooking</h2>
+</header>
+
+<div class="main-content">
+
+  <ul class="post-list">
+    {% for post in site.categories['blog'] %}
+          <li>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+                <div class="post-meta">
+                    <div>{{ post.date | date: "%b"  }}</div>
+                    <div>{{ post.date | date: "%-d" }}</div>
+                    <div>{{ post.date | date: "%Y"  }}</div>
+                </div>
+    
+                <h2>
+                  {{ post.title }}
+                </h2>
+            </a>
+          </li>
+
+    {% endfor %}
+  </ul>
+</div>
