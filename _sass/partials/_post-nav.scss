@@ -1,8 +1,8 @@
 .post-nav {
     width: 100%;
     padding: spacer(1);
+    margin-bottom: spacer(2);
     max-width: $max-width;
-    @include outer-container;
 
     li {
         display: block;
@@ -35,7 +35,6 @@
     
     .post + & {
         padding: 0 spacer(1) spacer(1);
-        margin-bottom: spacer(1);
     }
     
     .icon {

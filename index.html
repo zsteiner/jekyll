@@ -9,18 +9,20 @@ layout: default
 <div class="main-content">
   <div class="portfolio-links"> 
     <ul class="post-list">
-      {% for post in site.categories['work'] limit:6 %}
-        <li class="portfolio-item">
-          <a href="{{ post.url | prepend: site.baseurl }}">
-              <div class="portfolio-thumbnail">   
-                  <img src="../images/portfolio/{{ post.image }}" alt="{{ post.image }}"/>
-              </div>
-              <h3>{{ post.title }}</h3>
-          </a>
-          <p class="portfolio-description">
-              {{ post.description }}
-          </p>
-        </li>
+      {% for post in site.categories['work'] %}
+    			{% if post.show-homepage %}
+          <li class="portfolio-item">
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <div class="portfolio-thumbnail">   
+                    <img src="../images/portfolio/{{ post.image }}" alt="{{ post.image }}"/>
+                </div>
+                <h3>{{ post.title }}</h3>
+            </a>
+            <p class="portfolio-description">
+                {{ post.description }}
+            </p>
+          </li>
+    			{% endif %}
       {% endfor %}
     </ul>
   </div>

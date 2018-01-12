@@ -9,8 +9,12 @@ $success: #39EA28;
         display: flex;
         flex-wrap: wrap;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 45% 45%;
         grid-column-gap: 2rem;
+
+        @media screen and (max-width: $mobile-width) {
+          display: block;
+        }
       }
     }
     
@@ -32,7 +36,8 @@ $success: #39EA28;
     }
     
     &-description {
-        font-size: .875em;
+      font-size: .875em;
+      line-height: 1.25;
     }
 }
 
