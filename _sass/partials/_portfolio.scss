@@ -3,20 +3,20 @@ $warning: #FFCA4C;
 $success: #39EA28;
 
 .portfolio {
+    
     &-links {
-        columns: 2;
-        column-gap: 3rem;
-
-        @media screen and (max-width: $mobile-width) {
-            columns: 1;
-        } 
+      .post-list {
+        display: flex;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 2rem;
+      }
     }
     
     &-item {
         padding: 1rem 0 2rem;
-        -webkit-column-break-inside: avoid;
-        page-break-inside: avoid;
-        break-inside: avoid;
+        flex: 0 0 45%;
     }
     
     &-thumbnail {
@@ -85,6 +85,38 @@ a.b-warning {
         color: darken($warning, 20%);
     }
 
+}
+
+.lightbox {
+  &-grid {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+
+    @media screen and (max-width: $mobile-width) {
+      grid-template-columns: 50% 50%;
+    }
+    
+    a {
+      display: block;
+      flex: 0 0 6em;
+      margin-right: spacer(1);             
+      margin-bottom: spacer(1);             
+      border: 0;
+    }
+    
+    label {
+      font-size: .875em;
+      line-height: 1.25;
+      display: block;
+    }
+  }
+  
+  &-thumbnail {
+    max-height: 8rem;
+    border: 1px solid #f0f0f0;
+  }
 }
 
 @import 'portfolio/albums';
