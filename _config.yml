@@ -14,7 +14,7 @@ sass:
     sass_dir: _sass
     sourcemap: true
 
-gems: 
+plugins: 
 - jekyll-autoprefixer
 - octopress-minify-html
 
