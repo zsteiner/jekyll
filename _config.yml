@@ -29,7 +29,3 @@ exclude:
 - _config.yml
 - README.md
 - config.codekit3
-
-exclude:
-- config.codekit3
-- README.md
