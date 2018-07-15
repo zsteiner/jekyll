@@ -8,9 +8,13 @@ $success: #39EA28;
       .post-list {
         display: flex;
         flex-wrap: wrap;
-        display: grid;
-        grid-template-columns: 45% 45%;
-        grid-column-gap: 2rem;
+        width: 100%;
+        
+        @supports (display: grid) {
+          display: grid;
+          grid-template-columns: 45% 45%;
+          grid-column-gap: 2rem;          
+        }
 
         @media screen and (max-width: $mobile-width) {
           display: block;
@@ -19,6 +23,7 @@ $success: #39EA28;
     }
     
     &-item {
+        display: block;
         padding: 1rem 0 2rem;
         flex: 0 0 45%;
     }
